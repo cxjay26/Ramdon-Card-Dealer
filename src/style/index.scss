@@ -1,5 +1,33 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 body {
-  background: green;
+  font-size: 20px;
+}
+.poker-table {
+  position: relative;
+  width: 600px;
+  height: 324px;
+  background-image: url("https://www.vectorgraphit.com/wp-content/uploads/2015/12/88.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  background: whitesmoke;
+  margin-top: 147px !important;
+  overflow: hidden;
+}
+
+.joker {
+  width: 50px;
+  height: 50px;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
